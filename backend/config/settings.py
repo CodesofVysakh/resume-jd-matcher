@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-pk4apu@q))c7y&y%_udh!dx#bwiai^0(-h7p#ln+eqzpwq8tz4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://resume-jd-matcher-api.vercel.app/"]
 
 
 # Application definition
@@ -136,6 +136,5 @@ MAILERS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "https://resume-jd-matcher.vercel.app",
 ]
