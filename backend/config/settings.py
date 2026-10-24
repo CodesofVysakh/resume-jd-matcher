@@ -140,6 +140,6 @@ MAILERS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "https://resume-jd-matcher.vercel.app",
+    "https://ai-resume-jd-match-analyser.vercel.app/",
     "http://localhost:3000",
 ]
